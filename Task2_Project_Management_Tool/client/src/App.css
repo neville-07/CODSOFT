@@ -1,0 +1,186 @@
+/* Base Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-color: #1e2a38;
+  color: white;
+  padding: 20px 0;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  font-size: 16px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2e3b55;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00bfa6;
+}
+
+.post-job-link {
+  background-color: #00bfa6;
+  color: white !important;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 60px 40px; /* Must be in public folder */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 0 0 10px 10px;
+  background-color: #1e2a38; /* fallback background */
+  color: white;
+}
+
+.hero-content {
+  max-width: 500px;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.hero-content h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.highlight {
+  color: #00ffcc;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.upload-btn {
+  background-color: #00ffcc;
+  color: #003344;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #00e6b2;
+}
+
+/* Search Section */
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.search-section input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.find-job-btn {
+  padding: 10px 20px;
+  background-color: #2e3b55;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.find-job-btn:hover {
+  background-color: #1c2537;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .search-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-section input {
+    width: 80%;
+  }
+}

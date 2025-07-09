@@ -1,0 +1,22 @@
+.projects-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.projects-container form {
+  margin-bottom: 20px;
+}
+
+.projects-container input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.projects-container button {
+  padding: 8px 15px;
+  background-color: #2e3b55;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

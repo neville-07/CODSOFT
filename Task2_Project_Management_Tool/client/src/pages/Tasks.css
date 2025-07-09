@@ -1,0 +1,53 @@
+.tasks-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.tasks-container form {
+  margin-bottom: 20px;
+}
+
+.tasks-container input,
+.tasks-container select {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.tasks-container button {
+  padding: 8px 15px;
+  background-color: #00bfa6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tasks-container button:hover {
+  background-color: #009e88;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.task-card h4 {
+  margin: 0 0 5px;
+}
+
+.task-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
